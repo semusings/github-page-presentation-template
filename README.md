@@ -18,6 +18,8 @@ footer: © Bhuwan Prasad Updhyay [https://bhuwanupadhyay.github.io/]
 
 ## System Design
 
+![](system-design.png)
+
 ---
 
 ## Conclusion
