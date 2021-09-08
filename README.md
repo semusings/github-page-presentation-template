@@ -1,2 +1,2 @@
-# blog-article-code-template
-Blog Article Code Template
+# Blog Article Code Template
+
