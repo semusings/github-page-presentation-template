@@ -2,7 +2,7 @@
   "name": "package",
   "version": "1.0.0",
   "scripts": {
-    "assets": "mkdirp ./public/etc/assets/ && cp -r ./etc/assets ./public/etc/",
+    "assets": "mkdirp ./public/etc/marp/assets/ && cp -r ./etc/marp/assets/ ./public/etc/marp/",
     "build_page": "marp README.md -o ./public/index.html",
     "build": "run-s assets build_page",
     "watch": "marp -w README.md -o ./public/index.html",
