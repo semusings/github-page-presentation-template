@@ -20,7 +20,7 @@ footer: © Software Engineering Musings - <https://bhuwanupadhyay.dev/>
 
 ## Your Diagram
 
-![](etc/assets/design.png)
+![](etc/marp/assets/design.png)
 
 ---
 
