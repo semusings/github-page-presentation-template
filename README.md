@@ -1,10 +1,11 @@
 <!-- 
 theme: gaia
 paginate: true
-footer: © Bhuwan Prasad Updhyay [https://bhuwanupadhyay.github.io/]
+header: 'Your Title - <https://youtube.com/@semusings>'
+footer: © Bhuwan Prasad Updhyay [https://bhuwanupadhyay.dev/]
 -->
 
-# Blog Article Code Template
+# Your Title
 
 **Tags:**
 
@@ -16,9 +17,9 @@ footer: © Bhuwan Prasad Updhyay [https://bhuwanupadhyay.github.io/]
 
 ---
 
-## System Design
+## Your Diagram
 
-![](system-design.png)
+![](etc/assets/design.png)
 
 ---
 

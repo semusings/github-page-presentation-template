@@ -1,27 +1,20 @@
 {
-  "name": "demo",
+  "name": "package",
   "version": "1.0.0",
-  "description": "How to Sync data between PostgreSQL and Elasticsearch?",
   "scripts": {
-    "assets": "mkdirp ./public/ && cp -r system-design.png ./public/",
+    "assets": "mkdirp ./public/etc/assets/ && cp -r ./etc/assets ./public/etc/",
     "build_page": "marp README.md -o ./public/index.html",
     "build": "run-s assets build_page",
     "watch": "marp -w README.md -o ./public/index.html",
     "serve": "http-server ./public",
     "start": "run-p assets watch serve",
-    "proxy": "node proxy.js"
+    "proxy": "cd etc/local-proxy && node proxy.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bhuwanupadhyay/sync-data-between-PostgreSQL-and-Elasticsearch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bhuwanupadhyay/sync-data-between-PostgreSQL-and-Elasticsearch/issues"
+    "url": "https://github.com/semusings/ask-me-anything/issues/new"
   },
-  "homepage": "https://github.com/bhuwanupadhyay/sync-data-between-PostgreSQL-and-Elasticsearch#readme",
+  "homepage": "https://bhuwanupadhyay.dev",
   "dependencies": {
     "@marp-team/marp-cli": "^1.4.0",
     "@marp-team/marpit": "^2.1.1",
